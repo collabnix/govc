@@ -31,6 +31,7 @@ export GOVC_URL='root:password@<IPaddress>'
 
 ```
 export GOVC_INSECURE=1
+```
 
 ## Listing the Datacenter
 
