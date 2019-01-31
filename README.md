@@ -10,11 +10,7 @@ You can find prebuilt govc binaries on the releases page.
 
 Download and install a binary locally like this:
 
-% curl -L $URL_TO_BINARY | gunzip > /usr/local/bin/govc
-% chmod +x /usr/local/bin/govc
 
-
-# Example
 ## Install GOVC on Ubuntu 18.04
 
 ```
