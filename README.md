@@ -1,6 +1,21 @@
 # Managing Virtual Infrastructure using GOVC 
 
-## Install GOVC
+govc is a vSphere CLI built on top of govmomi.
+
+The CLI is designed to be a user friendly CLI alternative to the GUI and well suited for automation tasks. It also acts as a test harness for the govmomi APIs and provides working examples of how to use the APIs.
+
+## Installation
+
+You can find prebuilt govc binaries on the releases page.
+
+Download and install a binary locally like this:
+
+% curl -L $URL_TO_BINARY | gunzip > /usr/local/bin/govc
+% chmod +x /usr/local/bin/govc
+
+
+# Example
+## Install GOVC on Ubuntu 18.04
 
 ```
 wget https://github.com/vmware/govmomi/releases/download/v0.19.0/govc_linux_amd64.gz
