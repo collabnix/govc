@@ -12,7 +12,7 @@ cp -rf govc /usr/local/bin/
 ## Export the credentials:
 
 ```
-export GOVC_URL='root:dell@123@100.98.26.108'
+export GOVC_URL='root:password@<IPaddress>'
 ```
 
 ## Listing the Datacenter
