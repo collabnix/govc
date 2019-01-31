@@ -27,6 +27,11 @@ chmod +x /usr/local/bin/govc
 export GOVC_URL='root:password@<IPaddress>'
 ```
 
+## Disable certificate verification.
+
+```
+export GOVC_INSECURE=1
+
 ## Listing the Datacenter
 
 ```
