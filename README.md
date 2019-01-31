@@ -18,6 +18,7 @@ wget https://github.com/vmware/govmomi/releases/download/v0.19.0/govc_linux_amd6
 gunzip govc_linux_amd64.gz
 mv govc_linux_amd64 govc
 cp -rf govc /usr/local/bin/
+chmod +x /usr/local/bin/govc
 ```
 
 ## Export the credentials:
