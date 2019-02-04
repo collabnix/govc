@@ -61,3 +61,10 @@ govc vm.migrate -ds Local PhotonOS
 ```
 govc host.esxcli -host=<IP> network firewall set --enabled false
 ```
+
+## How to enable sfcb service?
+
+```
+ govc host.esxcli -host=<Ip> system wbem set -e 1
+
+```
