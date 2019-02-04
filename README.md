@@ -67,3 +67,11 @@ govc host.esxcli -host=<IP> network firewall set --enabled false
 ```
  govc host.esxcli -host=<Ip> system wbem set -e 1
 ```
+
+## How to configure NTP
+
+```
+ govc host.date.change -host <IP>  -server <IP>
+ govc host.service -host <IP> enable ntpd
+ govc host.service -host <IP> start ntpd
+```
