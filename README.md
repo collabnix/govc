@@ -56,7 +56,7 @@ govc vm.migrate -ds Local PhotonOS
 [31-01-19 16:59:43] migrating VirtualMachine:vm-673... OK
 ```
 
-##enable sfcb service
+## How to enable sfcb service?
 
 ```
  govc host.esxcli -host=<Ip> system wbem set -e 1
