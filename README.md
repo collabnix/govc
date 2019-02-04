@@ -56,6 +56,12 @@ govc vm.migrate -ds Local PhotonOS
 [31-01-19 16:59:43] migrating VirtualMachine:vm-673... OK
 ```
 
+## How to disable firewall?
+
+```
+govc host.esxcli -host=<IP> network firewall set --enabled false
+```
+
 ## How to enable sfcb service?
 
 ```
