@@ -55,3 +55,9 @@ Say, I have VM in datastore1 and I want to migrate it to "Local" datastore. I ca
 govc vm.migrate -ds Local PhotonOS
 [31-01-19 16:59:43] migrating VirtualMachine:vm-673... OK
 ```
+
+## How to disable firewall?
+
+```
+govc host.esxcli -host=<IP> network firewall set --enabled false
+```
