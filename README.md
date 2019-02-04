@@ -55,3 +55,9 @@ Say, I have VM in datastore1 and I want to migrate it to "Local" datastore. I ca
 govc vm.migrate -ds Local PhotonOS
 [31-01-19 16:59:43] migrating VirtualMachine:vm-673... OK
 ```
+
+##enable sfcb service
+
+```
+ govc host.esxcli -host=<Ip> system wbem set -e 1
+```
