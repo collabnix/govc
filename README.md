@@ -75,3 +75,10 @@ govc host.esxcli -host=<IP> network firewall set --enabled false
  govc host.service -host <IP> enable ntpd
  govc host.service -host <IP> start ntpd
 ```
+
+## Deploy VM from Template
+
+```
+govc vm.clone -vm=<template-name> -on=true -waitip=false -host=<targethostIP> -ds=<targetdatastore> newVMname
+govc vm.clone -vm=windows8Server64Guest-template -on=true -waitip=false -host=XXX.XXX.XXX.XXX -ds=ESX67 windows8Server64Guest
+---
