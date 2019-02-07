@@ -109,6 +109,7 @@ govc vm.unregister VMname
 govc datacenter.create demo
 ```
 
+## Fetching Demo Datacenter Information
 
 ```
 root@ubuntu14:/home/cse# govc datacenter.info demo
@@ -123,3 +124,15 @@ root@ubuntu14:/home/cse#
 root@ubuntu14:/home/cse#
 ```
 
+## Creating a new cluster
+
+```
+govc cluster.create -dc=demo democluster
+root@ubuntu14:/home/cse#
+```
+
+## 
+
+```
+
+```
