@@ -99,3 +99,27 @@ govc datastore.cp -ds=dastorename VM1/VM1.vmdk newfolder/VM1.vmdk
 ```
 govc vm.unregister VMname
 ```
+
+
+# Workshop #1: 
+
+## Creating a new Datacenter
+
+```
+govc datacenter.create demo
+```
+
+
+```
+root@ubuntu14:/home/cse# govc datacenter.info demo
+Name:                demo
+  Path:              /demo
+  Hosts:             0
+  Clusters:          0
+  Virtual Machines:  0
+  Networks:          0
+  Datastores:        0
+root@ubuntu14:/home/cse#
+root@ubuntu14:/home/cse#
+```
+
