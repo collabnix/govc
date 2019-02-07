@@ -130,8 +130,34 @@ govc cluster.create -dc=demo democluster
 
 ```
 
+## How to add ESXi Host to this Cluster
+
+- First we need to take care of cert and put it under thumbprint variable
+
+```
+thumbprint=$(govc about.cert -k -u <ESXi IP> -thumbprint | awk '{print $2}') 
+```
+
+- Now add the ESXi host flawlessly
+
+```
+govc cluster.add -cluster democluster -hostname <esxi IP> -username root -password <password> -thumbprint $thumbprint 
+```
+
+
+
+## How to remove ESXI Host from this cluster
+
+- This is a 2 step process. First, put the ESXi host in maintenance mode by running below command:
+
+```
+govc host.maintenance.enter -dc=demo <ESXi IP> 
+```
+
+- Now you can remove ESXi
+
+```
+govc host.remove -dc=demo <ESXi IP>
+```
+
 ## 
-
-```
-
-```
