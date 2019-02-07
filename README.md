@@ -1,4 +1,4 @@
-# Managing Virtual Infrastructure using GOVC 
+# Managing VMware Virtual Infrastructure using GOVC 
 
 govc is a vSphere CLI built on top of govmomi.
 
