@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 # This script configures a vCenter server with vSAN datastore, DVS and DVPGs.
 
