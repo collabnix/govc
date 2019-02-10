@@ -4,6 +4,8 @@ govc is a vSphere CLI built on top of govmomi.
 
 The CLI is designed to be a user friendly CLI alternative to the GUI and well suited for automation tasks. It also acts as a test harness for the govmomi APIs and provides working examples of how to use the APIs.
 
+![MyImage](https://github.com/collabnix/govc/blob/master/govc-gocmomi.png)<br>
+
 # Content
 
 [Getting Started with GOVC](https://github.com/collabnix/govc/blob/master/README.md#installation)<br>
