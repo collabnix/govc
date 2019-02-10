@@ -7,8 +7,7 @@ The CLI is designed to be a user friendly CLI alternative to the GUI and well su
 # Content
 
 [Getting Started with GOVC](https://github.com/collabnix/govc/blob/master/README.md#installation)<br>
-[Preparing the environment]()<br>
-[Installing GOVC on Ubuntu 18.04]()<br>
+[Workshop #1]()<br>
 
 
 
