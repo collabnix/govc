@@ -8,12 +8,12 @@ The CLI is designed to be a user friendly CLI alternative to the GUI and well su
 
 # Content
 
-[Getting Started with GOVC](https://github.com/collabnix/govc/blob/master/README.md#installation)<br>
-[Workshop #1 - Creating a New Datacenter](https://github.com/collabnix/govc/blob/master/README.md#workshop-1)<br>
-[Workshop #2 - Adding ESXi to the Cluster](https://github.com/collabnix/govc/blob/master/README.md#workshop-2)<br>
-[Workshop #3 - Deploy Virtual Machine from ISO Image](https://github.com/collabnix/govc/blob/master/README.md#workshop-3)<br>
-[Workshop #4 - Deploy Virtual Machine from template](https://github.com/collabnix/govc/blob/master/README.md#workshop-4)<br>
-[Workshop #5 - Demonstrating Storage vMotion](https://github.com/collabnix/govc/blob/master/README.md#workshop-5)<br>
+[Lab #0 - Getting Started with GOVC](https://github.com/collabnix/govc/blob/master/README.md#installation)<br>
+[Lab #1 - Creating a New Datacenter](https://github.com/collabnix/govc/blob/master/README.md#workshop-1)<br>
+[Lab #2 - Adding ESXi to the Cluster](https://github.com/collabnix/govc/blob/master/README.md#workshop-2)<br>
+[Lab #3 - Deploy Virtual Machine from ISO Image](https://github.com/collabnix/govc/blob/master/README.md#workshop-3)<br>
+[Lab #4 - Deploy Virtual Machine from template](https://github.com/collabnix/govc/blob/master/README.md#workshop-4)<br>
+[Lab #5 - Demonstrating Storage vMotion](https://github.com/collabnix/govc/blob/master/README.md#workshop-5)<br>
 
 # Ready Scripts
 
@@ -121,7 +121,7 @@ govc vm.unregister VMname
 ```
 
 
-# Workshop #1: 
+# Lab #1: 
 
 ## Creating a new Datacenter
 
@@ -180,14 +180,14 @@ govc host.maintenance.enter -dc=demo <ESXi IP>
 govc host.remove -dc=demo <ESXi IP>
 ```
 
-# Workshop #2
+# Lab #2
 <TBD>
 
-# Workshop #3
+# Lab #3
 <TBD>
 
-# Workshop #4 
+# Lab #4 
 <TBD>
  
- # Workshop #5
+ # Lab #5
  <TBD>
