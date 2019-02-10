@@ -11,8 +11,8 @@ The CLI is designed to be a user friendly CLI alternative to the GUI and well su
 [Getting Started with GOVC](https://github.com/collabnix/govc/blob/master/README.md#installation)<br>
 [Workshop #1 - Creating a New Datacenter](https://github.com/collabnix/govc/blob/master/README.md#workshop-1)<br>
 [Workshop #2 - Adding ESXi to the Cluster](https://github.com/collabnix/govc/blob/master/README.md#workshop-2)<br>
-[Workshop #3 - Deploy Virtual Machine from ISO Image](https://github.com/collabnix/govc/blob/master/README.md#workshop-2)<br>
-[Workshop #4 - Deploy Virtual Machine from template](https://github.com/collabnix/govc/blob/master/README.md#workshop-3)<br>
+[Workshop #3 - Deploy Virtual Machine from ISO Image](https://github.com/collabnix/govc/blob/master/README.md#workshop-3)<br>
+[Workshop #4 - Deploy Virtual Machine from template](https://github.com/collabnix/govc/blob/master/README.md#workshop-4)<br>
 
 
 ## Installation
