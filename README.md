@@ -13,6 +13,7 @@ The CLI is designed to be a user friendly CLI alternative to the GUI and well su
 [Workshop #2 - Adding ESXi to the Cluster](https://github.com/collabnix/govc/blob/master/README.md#workshop-2)<br>
 [Workshop #3 - Deploy Virtual Machine from ISO Image](https://github.com/collabnix/govc/blob/master/README.md#workshop-3)<br>
 [Workshop #4 - Deploy Virtual Machine from template](https://github.com/collabnix/govc/blob/master/README.md#workshop-4)<br>
+[Workshop #5 - Demonstrating Storage vMotion](https://github.com/collabnix/govc/blob/master/README.md#workshop-5)<br>
 
 
 ## Installation
