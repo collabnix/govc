@@ -171,4 +171,8 @@ govc host.maintenance.enter -dc=demo <ESXi IP>
 govc host.remove -dc=demo <ESXi IP>
 ```
 
-## 
+# Workshop #2: 
+
+# Workshop #3:
+
+# Workshop #4: 
