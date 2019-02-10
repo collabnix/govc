@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-# This script creates a Datacenter and connect the underlying ESXi host to vCenter VM
+# Create a Datacenter and connect the underlying ESXi host to vCenter VM
 
 esx_host=$(govc env -x GOVC_URL_HOST)
 esx_user=$(govc env GOVC_USERNAME)
