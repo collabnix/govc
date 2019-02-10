@@ -15,6 +15,14 @@ The CLI is designed to be a user friendly CLI alternative to the GUI and well su
 [Workshop #4 - Deploy Virtual Machine from template](https://github.com/collabnix/govc/blob/master/README.md#workshop-4)<br>
 [Workshop #5 - Demonstrating Storage vMotion](https://github.com/collabnix/govc/blob/master/README.md#workshop-5)<br>
 
+# Ready Scripts
+
+[Configure a vCenter cluster with vSAN datastore, DVS and DVPGs ](https://github.com/collabnix/govc/blob/master/scripts/create-cluster.sh)<br>
+[Create a Datacenter and connect the underlying ESXi host to vCenter VM](https://github.com/collabnix/govc/blob/master/scripts/create-standalone.sh)<br>
+[Create a VM and boot stateless ESXi via cdrom/iso](https://github.com/collabnix/govc/blob/master/scripts/create-esxi-vm.sh)<br>
+[Create VCSA VM](https://github.com/collabnix/govc/blob/master/scripts/create-vcsa-vm.sh)<br>
+
+
 
 ## Installation
 
