@@ -183,8 +183,11 @@ govc host.remove -dc=demo <ESXi IP>
 # Workshop #2
 <TBD>
 
-# Workshop #3:
+# Workshop #3
 <TBD>
 
-# Workshop #4: 
+# Workshop #4 
 <TBD>
+ 
+ # Workshop #5
+ <TBD>
