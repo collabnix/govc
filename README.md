@@ -9,7 +9,7 @@ The CLI is designed to be a user friendly CLI alternative to the GUI and well su
 # Content
 
 [Getting Started with GOVC](https://github.com/collabnix/govc/blob/master/README.md#installation)<br>
-[Workshop #1]()<br>
+[Workshop #1](https://github.com/collabnix/govc/blob/master/README.md#workshop-1)<br>
 
 
 
