@@ -183,14 +183,4 @@ govc host.maintenance.enter -dc=demo <ESXi IP>
 govc host.remove -dc=demo <ESXi IP>
 ```
 
-# Lab #2
-<TBD>
 
-# Lab #3
-<TBD>
-
-# Lab #4 
-<TBD>
- 
- # Lab #5
- <TBD>
